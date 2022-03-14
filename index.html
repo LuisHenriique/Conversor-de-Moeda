@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter Dólar em Real | Conversor de moeda</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="shortcut icon" href="./images/simbolo-do-dolar.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/media.css">
+  </head>
+  <body>
+   
+
+    <!-- Title -->
+    <header>
+      <h1 class="line typing-animation">Conversor de Moeda</h1>
+    </header>
+
+    <!-- Conversor -->
+    <main>
+      <section class="main-container">
+        <h1>Converter dólar para o real</h1>
+        <!-- form  -->
+        <form id="form" action="">
+          <div class="container-title">
+            <span class="dolaricon"
+              ><img src="./images/dolar.png" alt="dólar" width="28" /> </span
+            ><span class="phrase">DÓLAR COMERCIAL</span>
+          </div>
+          <label for="valorReal"><i class="far-icon">US$</i></label>
+          <input type="number" min="0.01" step="0.01" id="dolarValue" />
+          <!-- button -->
+          <button type="submit">CONVERTER</button>
+        </form>
+        <!-- title-container-result -->
+        <div class="container-tile-real">
+          <span class="realicon"
+            ><img src="./images/real-brasileiro.png" alt="Real" width="28"
+          /></span>
+          <span class="phrase">REAL COMERCIAL</span>
+        </div>
+    
+        <div id="result" >
+          <div class="container-icon"><i class="far-icon2">R$</i></div>
+            <div id="resultConversion"></div>
+        </div>
+      </section>
+      <!-- image -->
+      <div class="backgroundImg">
+        <img src="./images/no.png" alt="" />
+  
+      </div>
+    </main>
+ <script src="./js/script.js"></script>
+    <!-- JS -->
+  </body>
+</html>
