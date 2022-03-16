@@ -10,9 +10,9 @@ body{font-family: 'Share Tech Mono', monospace;
     background-color: #202124;;
 }
 
-main{
+.container{
     display: flex;
-    padding: 50px;
+    padding: 0px;
     gap: 50px;
     justify-content: center;
     margin-top: 50px;
@@ -24,21 +24,20 @@ header{
     text-align: center;
     height: 50px;
     width: 100%;
-    padding:25px 100px;
+    padding:25px 0px;
     color: #8efc90;
 }
 
 /* form */
-.main-container{
+main{
     background-color: transparent;
     border:1px solid #8efc90;
     width:350px;
     height: 360px;
     padding:30px;
     border-radius: 12px;
-    margin-left: 50px;
 }
-.main-container h1{
+main h1{
     color: #8efc90;
 }
 form{
