@@ -10,14 +10,14 @@ if(!dolar){
 }
 
 const calculationDolar = conversionDolar(dolar)
-const msg = calculationDolar;
+const msg = calculationDolar
 setResult(msg,true)
 })
 
 function conversionDolar (dolar){
     
     const calculationDolar = dolar * 5.08;
-    return calculationDolar.toFixed(2)
+    return calculationDolar.toLocaleString('pt-BR')
 
 }
 function criaP (){
